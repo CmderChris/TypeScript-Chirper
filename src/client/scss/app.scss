@@ -1,0 +1,14 @@
+$theme-colors: (
+    'primary': #67DDBB,
+    'secondary': #67C4DD,
+    'info': #6789DD,
+    'warning': #BB67DD,
+    'danger': #DD67C4
+);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+}
